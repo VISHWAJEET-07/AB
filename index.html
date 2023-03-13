@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Athletic Brij</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   <div id="header">   
+      <div class="container">
+        <nav>
+            <a href="/">
+                <img src="Logo.png" alt="" class="logo">
+            </a>
+         <ul >
+           <li><i class="fa fa-fw fa-home"></i><a href="#header"> Home </a></li> 
+              <li class="dropdown">
+                  <a href="#blogs">Blogs</a>
+                  <i class="fa fa-angle-down"></i>
+  
+                  <div class="dropdown-box">
+                      <div class="explore">
+                          <div class="top">
+                           <div class="img-container">
+                                  <img src="Explore.png" alt="" width="200px" height="110px">
+                            </div>
+                              <p>Explore</p>
+                          </div>
+                          <ul>
+                              <li><img src="Cricket.png" alt="" width="35px" height="40px"><a href="#cricket">Cricket</a></li>
+                              <li><img src="Football .png" alt="" width="35px" height="35px"><a href="#football">Football</a></li>
+                              <li><img src="Hockey.png" alt="" width="35px" height="35px"><a href="#hockey">Hockey</a></li>
+                              <li><img src="Basketball.png" alt="" width="35px" height="35px"><a href="#basketball">Basketball</a></li>
+                          </ul>
+                      </div>
+                      
+                  </div>
+              </li>
+            </li>
+            
+            <li><a href="#about">About us</a></i></li>
+            <li><a href="#products">Products</a>
+            <li><a href="#athletes">Athletes</a>
+            <li><a href="#search"><i class="fa fa-fw fa-search"></i> Search</a></li>
+            <li><a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a></li>
+            <li><a href="1.html"><i class="fa fa-fw fa-user"></i> Account</a></li>
+            
+           
+        </ul>
+                <!-- <i class="fa-solid fa-bars" onclick="openmenu()"></i> -->
+        </nav>
+
+      
+    </div>
+    <div class="header-text">
+        <p>Sports Website</p>
+        <h1>Hi, This is a <span> Sports </span> Platform <br> for all of your needs. </h1>
+    </div>
+   </div>
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+    <!---------About-------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="LK_2.png">
+            </div>
+            <div class="about-col-2">
+               <h1 class="sub-title">About Us</h1><br>   
+               <p>My name is Vishwajeet Tyagi and I am currently pursuing B.Tech from Krishna Institute of Engineering & Technology, Ghaziabad in Computer Science and Information of Technology <br>[ CSIT ]. I have learned various programming languages like C, C++, and Web Development like HTML, CSS, JavaScript, PHP, MySQL.
+               </p>   
+
+               <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+               </div> 
+
+               <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI</span><br>Designing Web Interfaces</li>
+                        <li><span>Graphic Designing</span><br>Prototype Templates</li>
+                        <li><span>Web Development</span><br>Full Stack Development</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021 - Current</span><br>Part-time Graphic designer & Web-developer at Upgrad.</li>
+                        <li><span>2020 - 2021</span><br>Web Development training at Skillshare.</li>
+                        <li><span>2019 - 2020</span><br>Graphic Design training at Skillshare.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022</span><br>Pursuing B.Tech from KIET Group of Institutions, Ghaziabad. [3rd Year]</li>
+                        <li><span>2020</span><br>12th from C.J.D.A.V. Centenary Public School, Meerut. [94%]</li>
+                        <li><span>2018</span><br>10th from C.J.D.A.V. Centenary Public School, Meerut. [90%]</li>
+                    </ul>
+               </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+        <!-- <div class="row">
+            <div class="about-col-1">
+                <img src="LK_2.png">
+            </div>
+            <div class="about-col-2">
+               <h1 class="sub-title">About</h1>  <br>   
+               <p>My name is Vishwajeet Tyagi and I am currently pursuing B.Tech from Krishna Institute of Engineering & Technology, Ghaziabad in Computer Science and Information of Technology <br>[ CSIT ]. I have learned various programming languages like C, C++, and Web Development like HTML, CSS, JavaScript, PHP, MySQL.
+               </p>   
+
+               <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                <p class="tab-links" onclick="opentab('education')">Education</p>
+               </div> 
+
+               <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI</span><br>Designing Web Interfaces</li>
+                        <li><span>Graphic Designing</span><br>Prototype Templates</li>
+                        <li><span>Web Development</span><br>Full Stack Development</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021 - Current</span><br>Part-time Graphic designer & Web-developer at Upgrad.</li>
+                        <li><span>2020 - 2021</span><br>Web Development training at Skillshare.</li>
+                        <li><span>2019 - 2020</span><br>Graphic Design training at Skillshare.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022</span><br>Pursuing B.Tech from KIET Group of Institutions, Ghaziabad. [3rd Year]</li>
+                        <li><span>2020</span><br>12th from C.J.D.A.V. Centenary Public School, Meerut. [94%]</li>
+                        <li><span>2018</span><br>10th from C.J.D.A.V. Centenary Public School, Meerut. [90%]</li>
+                    </ul>
+               </div>
+            </div>
+        </div> -->
+
+
+
+
+    <!---Product----->
+
+<div id="products">
+    <div class="container">
+        <h1 class="sub-title">Our Products</h1>     
+        <div class="products-list">
+
+            <div>
+                <i class='fas fa fa-helmet'></i>
+                <h2>UI Design</h2>
+              <p>User interface (UI) design is the process designers use to 
+                build interfaces in software or computerized devices, focusing on
+                 looks or style. Designers aim to create interfaces which users find 
+                 easy to use and pleasurable. UI design refers to graphical user
+                  interfaces and other forms—e.g., voice-controlled interfaces.</p>
+              <a href="product1.html">Learn More</a>
+            </div>
+            <div>
+                <i class='fas fa fa-magic' style='font-size:36px; color: white'></i>
+                <h2>Graphic Design</h2>
+               <p>Graphic design is a craft where professionals create visual content
+                 to communicate messages. By applying visual hierarchy and page layout
+                  techniques, designers use typography and pictures to meet users’ 
+                  specific needs and focus on the logic of displaying elements in
+                   interactive designs, to optimize the user experience. </p>
+              <a href="">Learn More</a>
+            </div>
+            <div>
+            <i class="fas fa fa-code"></i>
+            <h2>Web Development</h2>
+            <p>Web development refers to the building, creating, and maintaining of
+                 websites. It includes aspects such as web design, web publishing, 
+                 web programming, and database management. It is the creation of an
+                  application that works over the internet i.e. websites.</p>
+            <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Web development refers to the building, creating, and maintaining of
+                     websites. It includes aspects such as web design, web publishing, 
+                     web programming, and database management. It is the creation of an
+                      application that works over the internet i.e. websites.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Web development refers to the building, creating, and maintaining of
+                     websites. It includes aspects such as web design, web publishing, 
+                     web programming, and database management. It is the creation of an
+                      application that works over the internet i.e. websites.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa fa-code"></i>
+                <h2>Web Development</h2>
+                <p>Web development refers to the building, creating, and maintaining of
+                     websites. It includes aspects such as web design, web publishing, 
+                     web programming, and database management. It is the creation of an
+                      application that works over the internet i.e. websites.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!---------------Athletes---------------->
+
+<div id="athletes">
+    <div class="container">
+        <h1 class="sub-title">Athletes</h1>     
+        <div class="work-list">
+
+            <div class="work">
+             <img src="Virat.png">
+            <div class="layer">
+             <h3>Virat Kohli</h3>
+             <p>Virat Kohli is one of the fittest cricketers in the world. Healthy food plays a critical role in Virat Kohli's diet as it helps him maintain his fitness and performance levels.
+                Eating healthy helps Kohli maintain his energy levels, recover from training and mathches faster, and keep his body in optimal condition.
+             </p>
+              <a href="https://www.koimoi.com/fashion-lifestyle/virat-kohli-fitness-regime-decoded-from-high-level-intensive-workouts-to-following-quasi-vegetarian-diet-heres-how-he-keeps-himself-razor-sharp-intent-fit/#:~:text=Not%20many%20know%20that%20Virat,not%20develop%20a%20vitamin%20deficiency."><i class='fas fa-external-link' style='font-size:36px'></i>
+              </a>
+            </div>
+            </div>
+             <div class="work">
+                <img src="Cristiano.png">
+                <div class="layer">
+                   <h3>Cristiano Ronaldo</h3>
+                    <p>Healthy food is of paramount importance in Cristiano Ronaldo's diet as it helps him maintain his physical and mental permance at the highest level. 
+                        Ronaldo is known for his strict diet regime that primarily consists of nutrient-dense foods such as lean protein, complex cars, healthy fats.
+                    </p>
+                    <a href="https://www.goal.com/en-in/news/cristiano-ronaldo-diet-workout-fitness-regime-real-madrid/1ez74ip78o20715bzr1947rwhi"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+             </div>
+          </div>
+              <div class="work">
+                <img src="Sunil.png">
+                 <div class="layer">
+                   <h3>Sunil Chhetri</h3>
+                   <p>Diet plays a crucial role in Sunil Chhetri's life as a professional footballer. Chhetri is known for his discipline and dedication towards his fitness and diet.
+                    A healthy diet, combined with regular exercise and proper rest, is a vital component of Chhetri's success as a professional footballer.
+                   </p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                 </div>
+             </div>
+          </div>
+         <a href="#" class="btn">See more</a>
+
+    </div>
+
+</div>
+
+
+
+   <!-- Contact -->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Us</h1>
+                <p><i class="fa fa-envelope" style="font-size:24px"></i></i>athletic.brij@gmail.com</p>
+                <p><i class='fa fa-phone' style="font-size: 36px"></i></i>+918433425323</p>
+              <div class="social-icons">
+                <a href="https://www.instagram.com/athletic.brij/?theme=dark"><i class="fa fa-instagram" style="font-size:36px"></i></a>
+                <a href="https://github.com/Athletic-Brij"><i class="fa fa-github" style="font-size:36px"></i></a>
+                <a href="https://twitter.com/athletic_brij?t=tmWYIwWaBm8Pr4A6og2IKg&s=09"><i class="fa fa-twitter-square" style="font-size:36px"></i>                </a>
+                <a href="https://www.linkedin.com/in/athletic-brij-a3306326a/"></i><i class="fa fa-linkedin-square" style="font-size:36px"></i>                </a>
+              </div>
+            </div>
+                <div class="contact-right">
+                <form name="submit-to-google-sheet">           
+                      <input type="text" name="Name" placeholder="Your Name" required>
+                      <input type="email" name="email" placeholder="Your Email" required>
+                      <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
+                      <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @2023. Made with <i class="fa fa-heart" style="font-size:24px;color:red"></i> by <b>BRIJ OWNERS</b></p>
+    </div>
+</div> 
+
+
+<!----------------------JavaScript----------------------->
+
+<script>
+        
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+         for(tablink of tablinks){
+           tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+             tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+           document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    </script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwqIJJuHka98YO27bRqsWrIkZJSP950TQSLOTLJlF92Bsnh-GkJAlNjN0pq7URK6TcpLA/exec'
+    const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+   
+  form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully."
+            setTimeout(function(){
+               msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  </body>
+  </html>
